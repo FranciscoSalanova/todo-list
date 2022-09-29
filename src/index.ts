@@ -14,7 +14,7 @@ const tasks: Task[] = loadTasks();
 
 tasks.forEach(task => {
   addListItem(task);
-})
+});
 
 form?.addEventListener('submit', e => {
   e.preventDefault();
